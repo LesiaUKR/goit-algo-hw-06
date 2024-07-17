@@ -6,16 +6,19 @@ from graph_search import dfs_path, bfs_path, calculate_distance
 from data import stations, edges_with_lines, positions
 from dijkstra import save_dijkstra_results_to_md
 
-# Create graph
+# Створення графа
 G = nx.Graph()
 G.add_nodes_from(stations)
 for station1, station2, weight, line_color in edges_with_lines:
     G.add_edge(station1, station2, weight=weight, line_color=line_color)
 
-# Extract edge colors for visualization
+# Кольори ребер для візуалізації
 edge_colors = [G[u][v]['line_color'] for u, v in G.edges]
 
-# Visualize the graph
+# Вага ребер для позначення
+edge_weights = {(u, v): G[u][v]['weight'] for u, v in G.edges}
+
+# Візуалізація графа
 plt.figure(figsize=(14, 10))
 nx.draw(
     G, 
@@ -27,6 +30,10 @@ nx.draw(
     font_size=8, 
     font_weight="bold"
 )
+
+# Вивід позначок ребер (ваг)
+nx.draw_networkx_edge_labels(G, pos=positions, edge_labels=edge_weights, font_color='red')
+
 plt.title("Kyiv Metro Network")
 plt.show()
 
