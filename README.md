@@ -24,59 +24,60 @@
 
 Степінь вузла (node degree) визначається як кількість ребер, що виходять з цього вузла. Наприклад, якщо вузол має степінь 2, це означає, що він з'єднаний з двома іншими вузлами.
 
-                        Station  Degree
-0                 Akademmistechko       1
-1                     Zhytomyrska       2
-2                      Sviatoshyn       2
-3                           Nyvky       2
-4                     Beresteiska       2
-5                      Shuliavska       2
-6        Politekhnichnyi Instytut       2
-7                        Vokzalna       2
-8                     Universytet       2
-9                       Teatralna       3
-10                   Khreshchatyk       3
-11                      Arsenalna       2
-12                         Dnipro       2
-13                      Hidropark       2
-14                   Livoberezhna       2
-15                      Darnytsia       2
-16                   Chernihivska       2
-17                         Lisova       1
-18                  Heroiv Dnipra       1
-19                         Minska       2
-20                         Obolon       2
-21                       Pochaina       2
-22              Tarasa Shevchenka       2
-23           Kontraktova Ploshcha       2
-24              Poshtova Ploshcha       2
-25           Maidan Nezalezhnosti       3
-26  Ploshcha Ukrayinskykh heroyiv       3
-27                     Olimpiiska       2
-28                 Palats Ukraina       2
-29                       Lybidska       2
-30                      Demiivska       2
-31                    Holosiivska       2
-32                    Vasylkivska       2
-33             Vystavkovyi Tsentr       2
-34                        Ipodrom       2
-35                        Teremky       1
-36                         Syrets       1
-37                   Dorohozhychi       2
-38                    Lukianivska       2
-39                  Zoloti Vorota       3
-40                  Palats Sportu       3
-41                        Klovska       2
-42                      Pecherska       2
-43                    Zvirinetska       2
-44                      Vydubychi       2
-45                      Slavutych       2
-46                       Osokorky       2
-47                       Pozniaky       2
-48                     Kharkivska       2
-49                      Vyrlytsia       2
-50                    Boryspilska       2
-51                Chervony Khutir       1
+№ |                        Station |  Degree|
+--|--------------------------------:|:--------:|
+0 |                 Akademmistechko |      1|
+1 |                    Zhytomyrska  |     2 |
+2 |                     Sviatoshyn  |     2 |
+3 |                          Nyvky  |     2 |
+4 |                   Beresteiska   |     2 |
+5 |                    Shuliavska   |     2 |
+6 |       Politekhnichnyi Instytut  |     2 |
+7 |                       Vokzalna  |     2 |
+8 |                    Universytet  |     2 |
+9 |                      Teatralna  |     3 |
+10|                   Khreshchatyk  |     3 |
+11|                      Arsenalna  |     2 |
+12|                         Dnipro  |     2 |
+13|                      Hidropark  |     2 |
+14|                   Livoberezhna  |     2 |
+15|                      Darnytsia  |     2 |
+16|                   Chernihivska  |     2 |
+17|                        Lisova   |     1 |
+18|                  Heroiv Dnipra  |     1 |
+19|                         Minska  |     2 |
+20|                         Obolon  |     2 |
+21|                       Pochaina  |     2 |
+22|              Tarasa Shevchenka  |     2 |
+23|           Kontraktova Ploshcha  |     2 |
+24|              Poshtova Ploshcha  |     2 |
+25|           Maidan Nezalezhnosti  |     3 |
+26|  Ploshcha Ukrayinskykh heroyiv  |     3 |
+27|                     Olimpiiska  |     2 |
+28|                 Palats Ukraina  |     2 |
+29|                       Lybidska  |     2 |
+30|                      Demiivska  |     2 |
+31|                    Holosiivska  |     2 |
+32|                    Vasylkivska  |     2 |
+33|             Vystavkovyi Tsentr  |     2 |
+34|                        Ipodrom  |     2 |
+35|                        Teremky  |     1 |
+36|                         Syrets  |     1 |
+37|                   Dorohozhychi  |     2 |
+38|                    Lukianivska  |     2 |
+39|                 Zoloti Vorota   |     3 |
+40|                  Palats Sportu  |     3 |
+41|                        Klovska  |     2 |
+42|                      Pecherska  |     2 |
+43|                    Zvirinetska  |     2 |
+44|                     Vydubychi   |     2 |
+45|                     Slavutych   |     2 |
+46|                       Osokorky  |     2 |
+47|                       Pozniaky  |     2 |
+48|                    Kharkivska   |     2 |
+49|                      Vyrlytsia  |     2 |
+50|                    Boryspilska  |     2 |
+51|                Chervony Khutir  |     1 |
 
 - *Кінцеві станції*:
 
